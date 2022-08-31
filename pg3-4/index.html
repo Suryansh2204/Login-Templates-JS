@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/dad0a30663.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Baloo Bhaijaan 2' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="sign-in">
+            <h1>Sign in to your Account</h1>
+            <div class="btn">
+                <button><i class="fa-brands fa-facebook-f"></i></button>
+                <button><i class="fa-brands fa-google-plus-g"></i></button>
+                <button><i class="fa-brands fa-linkedin-in"></i></button>
+            </div>
+            <p>or use your email account:</p>
+
+            <div class="input">
+                <div class="username">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="text" id="username" placeholder="Username">
+                </div>
+                <div class="password">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" id="password" placeholder="Password">
+                    <div class="eye">
+                        <i class="fa-solid fa-eye-slash" onclick="displayPass()"></i>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#">Forgot your password?</a>
+            <button class="btn-signin">SIGN IN</button>
+        </div>
+        <div class="right">
+            <h1>Hello, Tomodachi!</h1>
+            <p>Sign up and discover a great amount of new opportunities !</p>
+            <button class="btn-signUp" onclick="changePg()">SIGN UP</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

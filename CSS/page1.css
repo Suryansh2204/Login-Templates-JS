@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  font-family: "Baloo Bhaijaan 2";
+}
+body {
+  background: url(/imgs/pg1.jpg) center center fixed;
+  background-size: cover;
+  
+}
+
+.login {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25%;
+  height: 60vh;
+  position: absolute;
+  top: 21%;
+  left: 37%;
+  
+  /* background: rgba(255,255,255,.07);
+  backdrop-filter: blur(9px);
+  border-radius: 35px;
+  padding-left: 30px; */
+}
+
+.login h1 {
+  width:45%;
+  font-size: 45px;
+  border-bottom: 5px solid #874629;
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.input {
+  margin-top: 15px;
+  display: flex;
+  padding: 2px;
+  /* align-items: center;
+    justify-content: center; */
+}
+
+#username {
+  margin-left: 15px;
+  font-family: "Baloo Bhaijaan 2";
+  font-size: 20px;
+  width: 80%;
+  outline: none;
+  background: none;
+  color: white;
+  border-style: none;
+  border-bottom: 3px black solid;
+}
+
+#password {
+  margin-left: 15px;
+  font-family: "Baloo Bhaijaan 2";
+  font-size: 20px;
+  width: 80%;
+  outline: none;
+  background: none;
+  color: white;
+  border-style: none;
+  border-bottom: 3px black solid;
+  size: 20px;
+}
+
+.btn {
+  margin-top: 15px;
+  margin-left: 15px;
+  font-family: "Baloo Bhaijaan 2";
+  width: 80px;
+  height: 35px;
+  color: white;
+  border: 2px solid #7e9844;
+  border-radius: 5px;
+  background: none;
+}
+
+.btn:hover {
+  font-weight: bold;
+  background-color: #7e9844;
+}
+
+.forget {
+  font-family: "Baloo Bhaijaan 2";
+  font-size: 18px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}

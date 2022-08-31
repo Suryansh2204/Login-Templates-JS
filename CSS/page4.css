@@ -1,0 +1,166 @@
+:root{
+    --primary-color:hsl(169deg 51% 46%);
+    --primary-font:'Baloo Bhaijaan 2';
+}
+
+*{
+    font-family: 'Baloo Bhaijaan 2';
+}
+
+body{
+    background: url(/imgs/pg3.jpg) center center fixed;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 67%;
+    height: 35rem;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: rgb(44, 62, 80) 0px 0px 15px 0px;
+    position: absolute;
+    top:70px;
+    left: 265px;
+}
+
+.sign-up{
+    width: 62%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-up h1{
+    color: var(--primary-color);
+    margin-top: 80px;
+    margin-bottom: 5px;
+    font-size: 2.5rem;
+    text-shadow: 4px 1px #d5d0d0ad;
+}
+
+.sign-up p{
+    margin-bottom: 0px;
+}
+
+.input{
+    width:23rem;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+#username, #password,#name{
+    font-size: 20px;
+    border:none;
+    outline: none;
+    background: none;
+    height: 50%;
+    margin-left: 12px;
+}
+
+#username::placeholder, #password::placeholder,#name::placeholder{
+    color:white;
+    filter: blur(0.3px);
+}
+
+.username, .password ,.name{
+    /* border-radius: 15px; */
+    height:35%;
+    padding-left: 15px;
+    background-color: #dcdcdcad;
+    margin: 10px 10px 5px 10px;
+    display: flex;
+    align-items: center;    
+}
+
+.btn button{
+    width:40px;
+    background-color: white;
+    border-radius: 35px;
+    font-size: 20px;
+    margin: auto 5px;
+}
+
+.btn button:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.sign-up a{
+    text-decoration: none;
+    font-family: var(--primary-font);
+    color: black;
+    margin: 25px auto;
+    border-bottom: 2px solid #dcdcdcad;
+}
+.sign-up a:hover{
+    transition: 0.2s;
+    text-shadow: 3px 2px #d5d0d0ad;
+}
+
+
+.btn-signup{
+    width: 170px;
+    height: 51px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    background-color: var(--primary-color);
+    font-size: 15px;
+}
+
+.btn-signup:hover{
+    color: black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.left{
+    background-color: var(--primary-color);
+    height: 35rem;
+    width: 391px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-family: var(--primary-font);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left h1{
+    text-shadow: 3px 2px #d5d0d0ad;
+    color: white;
+    margin-top: 130px;
+}
+
+.left p{
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.left a{
+    text-decoration: none;
+    
+    color: black;
+}
+.left button{
+    width: 170px;
+    height: 51px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    font-size: 15px;
+}
+
+
+.left button:hover{
+    color:var(--primary-color);
+    box-shadow: none;
+    transition: 0.2s;
+    cursor: pointer;
+}
